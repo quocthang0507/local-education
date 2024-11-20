@@ -18,7 +18,6 @@ public class SlideItem
 
 	public bool IsPublished { get; set; }
 
-
 	public SlideItem(Slide s)
 	{
 		Id = s.Id;

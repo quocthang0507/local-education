@@ -37,6 +37,8 @@ public class LocalEducationDbContext : DbContext
 
 	public DbSet<Lesson> Lessons { get; set; }
 
+	public DbSet<LessonMedia> LessonMedia { get; set; }
+
 	public DbSet<Slide> Slides { get; set; }
 
 	public DbSet<Question> Questions { get; set; }
